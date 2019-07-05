@@ -1,0 +1,302 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	font-family: 'roboto', sans-serif;
+	
+	
+}
+
+header{
+	margin: 20px 0;
+}
+
+.box{
+	width: 1400px;
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+.about-section{}
+
+.about-section h1{
+    font-size: 7em;
+    margin: auto;
+    text-transform: capitalize;
+    font-variant-caps: petite-caps;
+    line-height: 0.8;
+    margin-bottom: 50px;
+    font-weight: 900;
+}
+
+.about-section p{
+	font-size: 25px;
+	width: 600px;
+	line-height: 1.5;
+}
+
+.T-kartor-group{
+	padding: 50px;
+} 
+.box-content{
+	width: 60%;
+	float: left;
+	padding-right: 50px;
+	
+}
+.box-content h2{
+	font-size: 3em;
+	margin-bottom: 30px;
+	font-weight: 900;
+}
+
+.box-content h3{
+	font-size: 2em;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-weight: 900;
+}
+.box-content p{
+	margin-bottom: 20px;
+	font-size: 20px;
+	
+}
+.box-img{
+	width: 40%;
+	float: left;  
+}
+
+.box-content img{}
+
+.box-img img{
+
+}
+
+.management-section .box-img{
+	background-image: url(../images/image-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 630px;
+	background-position: 65%;
+
+	
+}
+
+.geospatial-section{
+	padding: 50px 0;
+}
+.geospatial-section .box-img{
+	background-image: url(../images/image-3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 672px;
+	background-position: 65%;
+}
+.USA-section{
+	padding: 0;
+}
+
+.client-section{
+    padding: 50px 0;
+}
+
+.heading{}
+.heading hr{
+    width: 70px;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+.heading span{
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #ccc5c5;
+}
+.heading h4{
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    width: 800px;
+
+}
+.client-logo{
+    width: 16.66%;
+    float: left;
+    padding: 0 15px;
+   overflow: hidden;
+
+}
+.client-logo img{}
+
+.what-we-do-section{
+
+}
+
+
+.what-we-do-image{
+	width: 32.33%;
+	float: left;
+	padding: 0;
+	margin-bottom: 15px;
+	margin-right: 10px;
+	margin-top: 16px;
+	overflow: hidden;
+}
+
+.what-we-do-image h5{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    width: 800px;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 15px;
+
+}
+
+.discuss-section{
+	padding: 0;
+}
+.discuss-content{
+	width: 50%;
+	margin-left: 100px;
+	float: left;
+
+
+	
+}
+.discuss-content h6{
+	font-size: 50px;
+	font-weight: 800;
+
+}
+
+.discuss-img{
+width: 40%;
+float: left;
+
+
+}
+
+.discuss-img img{
+	height: 400px;
+}
+
+.discuss-content p{
+	font-size: 17px;
+}
+
+.discuss-content form{
+	line-height: 25px;
+}
+
+
+
+.footer{
+	margin-top: 100px;
+}
+
+.black-section{
+	margin-bottom: auto;
+    color: #fff;
+    background-image: url("../images/pattern.png");
+    
+
+}
+
+.black-section h3{
+	padding-top: 100px;
+    padding-left: 120px;
+    font-size: 25px;
+}
+
+.black-section p{
+	
+    padding-left: 120px;
+    padding-bottom: 70px;
+
+}
+
+.black-section span{
+	font-size: 12px;
+
+}
+
+.submit input{
+	padding: 6px 20px;
+}
+
+
+<--!note-->
+input{}
+input[type="text"]
+{
+    font-size: 18px;
+    font-weight: 400;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.42); */
+    padding: 19px 0 0;
+    /*width: 600px;*/
+    transition: .25s cubic-bezier(.4,0,.2,1);
+    margin-left: 0px;
+    /* float: left; */
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    overflow: hidden;
+    outline: 0;
+}
+input[type="submit"] {
+    
+width: 99px;
+    
+height: 40px;
+    
+background-color: black;
+    
+color: white;
+    
+margin-left: 0px;
+    
+margin-top: 25px;
+    
+outline: 0;
+    
+font-size: 13px;
+    
+text-transform: uppercase;
+    
+border: 0;
+}
+section.input{
+    width: 600px;
+    float: left;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.map img{
+    height: 375px;
+}
+input.input-subject {
+    width: 550px;
+}
+input.input-email {
+    width: 250px;
+}
+input.input-phone {
+       width: 248px;
+    margin-left: 48px;
+}
+.footer{
+	
+}
